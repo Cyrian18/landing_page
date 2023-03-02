@@ -1,0 +1,21 @@
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.container p{
+  width: 300px;
+  color: white;
+  font-size:30px ;
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
